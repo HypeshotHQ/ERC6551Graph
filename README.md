@@ -35,3 +35,5 @@ dataSources:
       file: ./src/registry.ts
 ```
 after doing this, graph deploy --product hosted-service *subgraph-name* --network *chain* subgraph-*chain*.yml should deploy the subgraph.
+
+repeat this process for every chain you want this subgraph deployed on.

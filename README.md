@@ -1,4 +1,4 @@
-This is a setup of the graph for token bounds ERC6551 registry contract. With this you can track accounts made across the tokenbound implementation on any chain that the graph and tokenbound supports.
+This is a setup of the graph for [tokenbounds ERC6551 registry contract](https://github.com/erc6551/reference). With this you can track accounts made across the tokenbound implementation on any chain that the graph and tokenbound supports.
 
 ## Setup
 1.) make a hosted service subgraph on [thegraph](https://thegraph.com/hosted-service), once you make a graph the name will be *your-username*/*subgraph-name*.

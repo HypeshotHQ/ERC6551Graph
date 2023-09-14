@@ -7,7 +7,7 @@ This is a setup of the graph for token bounds ERC6551 registry contract. With th
 
 After doing this, if you do source ~/.zshrc in your terminal, deploy *subgraph-name*  *chain* should make a graph for you automatically. [here](https://thegraph.com/docs/en/developing/supported-networks/) is where you can get the list of chains available (look under CLI name)
 
-2b.) make a file subgraph-*chain*.yml, copy the following into the file, replace *chain* with what chain you want to deploy on.
+2b.) (if you did 2a ignore) make a file subgraph-*chain*.yml, copy the following into the file, replace *chain* with what chain you want to deploy on.
 ```
 specVersion: 0.0.5
 schema:

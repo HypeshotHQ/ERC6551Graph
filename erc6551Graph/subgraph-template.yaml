@@ -1,0 +1,24 @@
+specVersion: 0.0.5
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum
+    name: Registry
+    network: optimism
+    source:
+      abi: Registry
+      address: "0x02101dfB77FDE026414827Fdc604ddAF224F0921"
+      startBlock: 105590673
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - AccountCreated
+      abis:
+        - name: Registry
+          file: ./abis/Registry.json
+      eventHandlers:
+        - event: AccountCreated(address,address,uint256,address,uint256,uint256)
+          handler: handleAccountCreated
+      file: ./src/registry.ts

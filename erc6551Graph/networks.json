@@ -1,0 +1,56 @@
+{
+  "goerli": {
+    "Registry": {
+      "address": "0x02101dfB77FDE026414827Fdc604ddAF224F0921",
+      "startBlock": 0
+    }
+  },
+  "sepolia": {
+    "Registry": {
+      "address": "0x02101dfB77FDE026414827Fdc604ddAF224F0921",
+      "startBlock": 0
+    }
+  },
+  "mumbai": {
+    "Registry": {
+      "address": "0x02101dfB77FDE026414827Fdc604ddAF224F0921",
+      "startBlock": 0
+    }
+  },
+  "mainnet": {
+    "Registry": {
+      "address": "0x02101dfB77FDE026414827Fdc604ddAF224F0921",
+      "startBlock": 0
+    }
+  },
+  "matic": {
+    "Registry": {
+      "address": "0x02101dfB77FDE026414827Fdc604ddAF224F0921",
+      "startBlock": 0
+    }
+  },
+  "optimism": {
+    "Registry": {
+      "address": "0x02101dfB77FDE026414827Fdc604ddAF224F0921",
+      "startBlock": 105590673
+    }
+  },
+  "arbitrum": {
+    "Registry": {
+      "address": "0x02101dfB77FDE026414827Fdc604ddAF224F0921",
+      "startBlock": 0
+    }
+  },
+  "gnosis": {
+    "Registry": {
+      "address": "0x02101dfB77FDE026414827Fdc604ddAF224F0921",
+      "startBlock": 0
+    }
+  },
+  "base": {
+    "Registry": {
+      "address": "0x02101dfB77FDE026414827Fdc604ddAF224F0921",
+      "startBlock": 3916756
+    }
+  }
+}

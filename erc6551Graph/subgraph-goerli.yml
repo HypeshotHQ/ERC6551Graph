@@ -1,6 +1,6 @@
 specVersion: 0.0.5
 schema:
-  file: schema.graphql
+  file: ./schema.graphql
 dataSources:
   - kind: ethereum
     name: Registry
@@ -17,8 +17,8 @@ dataSources:
         - AccountCreated
       abis:
         - name: Registry
-          file: Registry/abis/Registry.json
+          file: ./abis/Registry.json
       eventHandlers:
         - event: AccountCreated(address,address,uint256,address,uint256,uint256)
           handler: handleAccountCreated
-      file: Registry/Registry.wasm
+      file: ./src/registry.ts

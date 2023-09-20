@@ -2,7 +2,7 @@
   "goerli": {
     "Registry": {
       "address": "0x02101dfB77FDE026414827Fdc604ddAF224F0921",
-      "startBlock": 0
+      "startBlock": 8977425
     }
   },
   "sepolia": {

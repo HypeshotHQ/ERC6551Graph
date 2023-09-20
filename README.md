@@ -1,7 +1,7 @@
 This is a setup of the graph for [tokenbounds ERC6551 registry contract](https://github.com/erc6551/reference). With this you can track accounts made across the tokenbound implementation on any chain that the graph and tokenbound supports.
 
 ## Setup
-1.) make a hosted service subgraph on [thegraph](https://thegraph.com/hosted-service), once you make a graph the name will be *your-username*/*subgraph-name*.
+1.) make a hosted service subgraph on [thegraph](https://thegraph.com/hosted-service), once you make a graph the name will be *your-username*/*subgraph-name*. Then from the root of this repo do cd erc6551Graph.
 
 2a.) (optional if on mac/linux) make a copy of deployScript.sh and put in usr/local/bin. then do nano ~/.zshrc, followed by putting at the bottom of the zshrc file alias deploy="usr/local/bin/deploy.sh".
 
